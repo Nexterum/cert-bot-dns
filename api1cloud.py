@@ -66,10 +66,6 @@ def remove_all_acme(d_name: str, sub: str = "_acme-challenge"):
     return count
 
 
-# add_record(domain, "12324234234")
-
-print(remove_all_acme(domain))
-
-exit(0)
-
-# print(add_txt_record('sonys.ru', '_acme-challenge', '1234'))
+if __name__ == "__main__":
+    print(remove_all_acme(domain))
+    exit(0)
